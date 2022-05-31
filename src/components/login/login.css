@@ -1,0 +1,58 @@
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 150px;
+}
+
+.icon {
+    padding: 10px;
+    background: darkorange;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid darkcyan;
+}
+.input-field:focus {
+    border: 2px solid darkcyan;
+}
+
+.icon:hover {
+    background-color: darkcyan;
+}
+
+.bttn {
+    background-color: darkorange;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.bttn:hover {
+    opacity: 1;
+    background-color: darkcyan;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border: 2px solid #888888;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
